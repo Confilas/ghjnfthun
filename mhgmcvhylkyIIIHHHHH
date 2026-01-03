@@ -284,6 +284,11 @@ local OBJECTS = {
 ['Ginger Gerat'] = { emoji = '🥶', important = true },
 ['Skibidi Toilet'] = { emoji = '🚽', important = true }, 
 ['Tuff Toucan'] = { emoji = '🦜', important = true },
+['Bunito Bunito Spinito'] = { emoji = '🐰', important = true },
+['Tung Tung Tung Sahur'] = { emoji = '🌳', important = true },
+['Bunnyman'] = { emoji = '🐇', important = true },
+['Please my Present'] = { emoji = '🎁', important = true },
+['Giftini Spyderini'] = { emoji = '🕷', important = true },
 }
 
 local ALWAYS_IMPORTANT = {}
