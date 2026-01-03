@@ -144,7 +144,7 @@ local SPECIAL_BRAINROTS = {
 ['Ginger Gerat'] = 0,
 ['Jolly Jolly Sahur'] = 0,
 ['Skibidi Toilet'] = 0,
-['Tuff Toucan'] = 0,
+['Tuff Toucan'] = 300_000_000,
 }
 
 -- 🎮 OBJECTS WITH EMOJIS AND IMPORTANCE
