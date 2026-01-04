@@ -95,7 +95,12 @@ sendTeleport = true
 
 -- 📋 SPECIAL BRAINROTS WITH MIN VALUES
 local SPECIAL_BRAINROTS = {
-['Dragon Cannelloni'] = 999999999999999,
+['Dragon Cannelloni'] = 0,
+['Strawberry Elephant'] = 0,
+['Meowl'] = 0,
+['Headless Horseman'] = 0,
+['Dragon Gingerini'] = 0,
+['Skibidi Toilet'] = 0,
 }
 
 -- 🎮 OBJECTS WITH EMOJIS AND IMPORTANCE
