@@ -95,7 +95,7 @@ sendTeleport = true
 
 -- 📋 SPECIAL BRAINROTS WITH MIN VALUES
 local SPECIAL_BRAINROTS = {
-['Garama and Madundung'] = 0,
+['Garama and Madundung'] = 150_000_000,
 ['Dragon Cannelloni'] = 0,
 ['La Supreme Combinasion'] = 0,
 ['Ketupat Kepat'] = 140_000_000,
