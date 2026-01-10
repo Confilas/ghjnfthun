@@ -101,6 +101,8 @@ local SPECIAL_BRAINROTS = {
 ['Headless Horseman'] = 0,
 ['Dragon Gingerini'] = 0,
 ['Skibidi Toilet'] = 0,
+['Cerberus'] = { min = 0, mutations = {} },
+['Ay Mi Gatito'] = { min = 0, mutations = {} },
 }
 
 -- 🎮 OBJECTS WITH EMOJIS AND IMPORTANCE
@@ -245,6 +247,8 @@ local OBJECTS = {
 ['Bunnyman'] = { emoji = '🐇', important = true },
 ['Please my Present'] = { emoji = '🎁', important = true },
 ['Giftini Spyderini'] = { emoji = '🕷', important = true },
+['Cerberus'] = { emoji = '👹', important = true },
+['Ay Mi Gatito'] = { emoji = '😻', important = true },
 }
 
 local ALWAYS_IMPORTANT = {}
