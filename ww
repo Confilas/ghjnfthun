@@ -96,14 +96,7 @@ local WEBHOOKS = {
 
 -- 📋 SPECIAL BRAINROTS WITH MIN VALUES + MUTATIONS
 local SPECIAL_BRAINROTS = {
-    ['Dragon Cannelloni'] = { min = 0, mutations = {} },
-    ['Strawberry Elephant'] = { min = 0, mutations = {} },
-    ['Meowl'] = { min = 0, mutations = {} },
-    ['Headless Horseman'] = { min = 0, mutations = {} },
-    ['Dragon Gingerini'] = { min = 0, mutations = {} },
-    ['Skibidi Toilet'] = { min = 0, mutations = {} },
-    ['Cerberus'] = { min = 0, mutations = {} },
-    ['Ay Mi Gatito'] = { min = 0, mutations = {} },
+    ['Dragon Cannelloni'] = { min = 99999999999, mutations = {} },
 }
 
 -- 🎮 OBJECTS WITH EMOJIS AND IMPORTANCE
