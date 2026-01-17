@@ -96,7 +96,15 @@ local WEBHOOKS = {
 
 -- 📋 SPECIAL BRAINROTS WITH MIN VALUES + MUTATIONS
 local SPECIAL_BRAINROTS = {
-    ['Dragon Cannelloni'] = { min = 99999999999, mutations = {} },
+    ['Dragon Cannelloni'] = { min = 0, mutations = {} },
+    ['Strawberry Elephant'] = { min = 0, mutations = {} },
+    ['Meowl'] = { min = 0, mutations = {} },
+    ['Headless Horseman'] = { min = 0, mutations = {} },
+    ['Dragon Gingerini'] = { min = 0, mutations = {} },
+    ['Skibidi Toilet'] = { min = 0, mutations = {} },
+    ['Cerberus'] = { min = 0, mutations = {} },
+    ['Ay Mi Gatito'] = { min = 0, mutations = {} },
+    ['AY MI GATITO MIAU MIAU'] = { min = 0, mutations = {} },
 }
 
 -- 🎮 OBJECTS WITH EMOJIS AND IMPORTANCE
@@ -242,6 +250,8 @@ local OBJECTS = {
     ['Giftini Spyderini'] = { emoji = '🕷', important = true },
     ['Cerberus'] = { emoji = '👹', important = true },
     ['Ay Mi Gatito'] = { emoji = '😻', important = true },
+    ['BRUNITO MARSITO'] = { emoji = '🥸', important = true },
+    ['AY MI GATITO MIAU MIAU'] = { emoji = '😻', important = true },
 }
 
 local ALWAYS_IMPORTANT = {}
