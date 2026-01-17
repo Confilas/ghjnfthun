@@ -148,7 +148,7 @@ local SPECIAL_BRAINROTS = {
     ['Tuff Toucan'] = { min = 500_000_000, mutations = {"Bloodrot", "Candy", "Lava", "Yin Yang", "Radioactive", "Rainbow", "Galaxy"} },
     ['Cerberus'] = { min = 0, mutations = {} },
     ['Ay Mi Gatito'] = { min = 0, mutations = {} },
-    ['BRUNITO MARSITO'] = { min = 0, mutations = {} },
+    ['BRUNITO MARSITO'] = { min = 999999999, mutations = {} },
     ['AY MI GATITO MIAU MIAU'] = { min = 0, mutations = {} },
 }
 
