@@ -136,7 +136,7 @@ local SPECIAL_BRAINROTS = {
     ['Los Bros'] = { min = 500_000_000, mutations = {"Candy", "Lava", "Rainbow"} },
     ['Spaghetti Tualetti'] = { min = 700_000_000, mutations = {"Bloodrot", "Rainbow"} },
     ['Esok Sekolah'] = { min = 600_000_000, mutations = {} },
-    ['Nuclearo Dinossauro'] = { min = 300_000_000, mutations = {"Cursed", "Bloodrot"} },
+    ['Nuclearo Dinossauro'] = { min = 300_000_000, mutations = {"Bloodrot"} },
     ['Lavadorito Spinito'] = { min = 500_000_000, mutations = {"Cursed", "Bloodrot", "Candy", "Lava", "Yin Yang", "Radioactive", "Rainbow", "Galaxy"} },
     ['La Ginger Sekolah'] = { min = 600_000_000, mutations = {"Cursed", "Candy", "Yin Yang", "Radioactive", "Rainbow", "Galaxy"} },
     ['Reinito Sleighito'] = { min = 0, mutations = {} },
