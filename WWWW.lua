@@ -71,7 +71,7 @@ local WEBHOOKS = {
         showJoinerAd = true
     },
     {
-        url = 'ttps://discord.com/api/webhooks/1457015322119897133/kQkqA4AMYLVviEYFT7Rf4Udz6ATSRYPVcPeDtALzHFfveew7jmjGCPE6Q-5KAZViCaIE',
+        url = 'https://discord.com/api/webhooks/1456411967941120194/5BhYfK-zbqoe_tG7SxHBXysz0IIJj1V4pPXh7LjnZz62vXTv5Z2AWDGT-CGii1xKjTEv',
         title = '⭐️ SPECIAL BRAINROTS + MUTATIONS',
         color = 0xff00ff,
         special = true,
