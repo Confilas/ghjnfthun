@@ -96,7 +96,7 @@ local WEBHOOKS = {
 
 -- 📋 SPECIAL BRAINROTS WITH MIN VALUES + MUTATIONS
 local SPECIAL_BRAINROTS = {
-    ['Garama and Madundung'] = { min = 999999, mutations = {} },
+    ['Strawberry Elephant'] = { min = 9_999_999_999, mutations = {} },
 }
 
 -- 🎮 OBJECTS WITH EMOJIS AND IMPORTANCE
