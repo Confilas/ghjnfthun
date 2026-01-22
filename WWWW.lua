@@ -81,7 +81,7 @@ local WEBHOOKS = {
 }
 
 local SPECIAL_BRAINROTS = {
-    ['Garama and Madundung'] = { min = 999999999999, mutations = {} },
+   ['Strawberry Elephant'] = { min = 9_999_999_999, mutations = {} },
 }
 
 local OBJECTS = {
