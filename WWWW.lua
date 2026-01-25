@@ -284,6 +284,7 @@ local OBJECTS = {
     ['AY MI GATITO MIAU MIAU'] = { emoji = '😻', important = true },
     ['Ketupat Bros'] = { emoji = '👌🏿', important = true },
     ['Hydra Dragon Cannelloni'] = { emoji = '💋', important = true },
+    ['bacuru and egguru'] = { emoji = '🥚', important = true },
 }
 
 local ALWAYS_IMPORTANT = {}
