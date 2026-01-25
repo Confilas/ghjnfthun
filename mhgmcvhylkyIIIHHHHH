@@ -152,6 +152,7 @@ local SPECIAL_BRAINROTS = {
     ['AY MI GATITO MIAU MIAU'] = { min = 0, mutations = {} },
     ['Ketupat Bros'] = { min = 0, mutations = {} },
     ['Hydra Dragon Cannelloni'] = { min = 0, mutations = {} },
+    ['Popuru and Fizzuru'] = { min = 0, mutations = {} },
 }
 
 -- 🎮 OBJECTS WITH EMOJIS AND IMPORTANCE
@@ -302,6 +303,10 @@ local OBJECTS = {
     ['Ketupat Bros'] = { emoji = '👌🏿', important = true },
     ['Hydra Dragon Cannelloni'] = { emoji = '💋', important = true },
     ['bacuru and egguru'] = { emoji = '🥚', important = true },
+    ['Popuru and Fizzuru'] = { emoji = '🍿', important = true },
+    ['Los Trios'] = { emoji = '🦈', important = true },
+    ['Los Sekolahs'] = { emoji = '🏡', important = true },
+    ['Chill Puppy'] = { emoji = '🐶', important = true },
 }
 
 local ALWAYS_IMPORTANT = {}
