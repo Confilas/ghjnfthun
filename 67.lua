@@ -16,8 +16,7 @@ local WEBHOOK_SPECIAL = "https://discord.com/api/webhooks/1469225407139151873/Rv
 
 local GAME_ID    = 109983668079237
 local SERVER_URL = "https://raw.githubusercontent.com/Confilas/ghjnfthun/refs/heads/main/fghs"
-local FPS_LIMIT  = 60
-local AUTO_CLOSE_ERRORS = false  -- auto-dismiss teleport error popups
+local FPS_LIMIT  = 15
 
 -- ══════════════════════════════════════════════════════════════
 --  DEFAULTS
@@ -212,6 +211,7 @@ for _, name in ipairs(OBJECT_NAMES) do OBJECTS[name] = true end
 
 local sentCache = {}
 local SERVER_LIST = {}
+local BLACKLIST = {}
 local VDS_TOKEN_CACHE = { token = nil, expiresAt = 0 }
 local serversReady = false
 
@@ -254,45 +254,6 @@ statusLabel.Font = Enum.Font.Gotham
 statusLabel.TextSize = 20
 statusLabel.TextWrapped = true
 statusLabel.Parent = bg
-
--- Auto-dismiss error popups (event-driven, no polling lag)
-if AUTO_CLOSE_ERRORS then
-    local GuiService = game:GetService("GuiService")
-
-    local function tryDismissButton(btn)
-        if not btn:IsA("TextButton") then return end
-        local t = btn.Text
-        if t ~= "Ok" and t ~= "OK" and t ~= "ok" and t ~= "Retry" then return end
-        local parent = btn.Parent
-        while parent and not parent:IsA("ScreenGui") do parent = parent.Parent end
-        if parent and parent.Name == "TeleportStatusGUI" then return end
-        task.defer(function()
-            pcall(function() firesignal(btn.MouseButton1Click) end)
-            pcall(function() firesignal(btn.Activated) end)
-            if parent then pcall(function() parent:Destroy() end) end
-        end)
-    end
-
-    local function hookContainer(container)
-        if not container then return end
-        container.DescendantAdded:Connect(function(desc)
-            tryDismissButton(desc)
-        end)
-        for _, desc in ipairs(container:GetDescendants()) do
-            tryDismissButton(desc)
-        end
-    end
-
-    hookContainer(CoreGui)
-    hookContainer(localPlayer:FindFirstChild("PlayerGui"))
-
-    task.spawn(function()
-        while true do
-            pcall(function() GuiService:ClearError() end)
-            task.wait(1)
-        end
-    end)
-end
 
 pcall(function()
     TeleportService.TeleportInitFailed:Connect(function() end)
@@ -805,18 +766,41 @@ local function LoadServers()
     return r
 end
 
+local function IsServerAvailable(serverId)
+    if not BLACKLIST[serverId] then return true end
+    return (os.time() - BLACKLIST[serverId]) > TELEPORT_SETTINGS.COOLDOWN_TIME
+end
+
 local function TeleportLoop()
     while true do
-        if #SERVER_LIST == 0 then
-            UpdateStatus("No servers, waiting...", Color3.fromRGB(255, 200, 100))
-            task.wait(5)
+        local available = {}
+        for _, serverId in ipairs(SERVER_LIST) do
+            if IsServerAvailable(serverId) then
+                table.insert(available, serverId)
+            end
+        end
+
+        if #available == 0 then
+            UpdateStatus("All servers on cooldown, reloading...", Color3.fromRGB(255, 200, 100))
+            task.wait(10)
+            local fresh = LoadServers()
+            if #fresh > 0 then SERVER_LIST = fresh end
+            BLACKLIST = {}
         else
-            local target = SERVER_LIST[math.random(1, #SERVER_LIST)]
+            local target = available[math.random(1, #available)]
             UpdateStatus("Connecting: " .. target:sub(1, 8) .. "...", Color3.fromRGB(200, 200, 255))
-            pcall(function()
+
+            local success = pcall(function()
                 TeleportService:TeleportToPlaceInstance(TELEPORT_SETTINGS.GAME_ID, target, Players.LocalPlayer)
             end)
-            task.wait(1)
+
+            if not success then
+                BLACKLIST[target] = os.time()
+                UpdateStatus("Failed, retrying...", Color3.fromRGB(255, 150, 150))
+                task.wait(TELEPORT_SETTINGS.ERROR_RETRY_DELAY)
+            else
+                task.wait(TELEPORT_SETTINGS.SUCCESS_DELAY)
+            end
         end
     end
 end
