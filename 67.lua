@@ -16,7 +16,7 @@ local WEBHOOK_SPECIAL = "https://discord.com/api/webhooks/1469225407139151873/Rv
 
 local GAME_ID    = 109983668079237
 local SERVER_URL = "https://raw.githubusercontent.com/Confilas/ghjnfthun/refs/heads/main/fghs"
-local FPS_LIMIT  = 15
+local FPS_LIMIT  = 60
 local AUTO_CLOSE_ERRORS = true  -- auto-dismiss teleport error popups
 
 -- ══════════════════════════════════════════════════════════════
