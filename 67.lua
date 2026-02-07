@@ -139,6 +139,12 @@ local SPECIAL_BRAINROTS = {
     ["Ketupat Bros"]              = { min = 0, mutations = {} },
     ["Hydra Dragon Cannelloni"]   = { min = 0, mutations = {} },
     ["Popuru and Fizzuru"]        = { min = 0, mutations = {} },
+    ["Rosey and Teddy"]        = { min = 0, mutations = {} },
+    ["Lovin Rose"]        = { min = 0, mutations = {} },
+    ["Love Love bear"]        = { min = 0, mutations = {} },
+    ["Spaghetti Floretti"]        = { min = 0, mutations = {} },
+    ["Rosetti Tualetti"]        = { min = 0, mutations = {} },
+    ["Noo my Heart"]        = { min = 0, mutations = {} },
 }
 
 -- ══════════════════════════════════════════════════════════════
@@ -195,7 +201,10 @@ local OBJECT_NAMES = {
     "Giftini Spyderini", "Cerberus", "Ay Mi Gatito",
     "AY MI GATITO MIAU MIAU", "Ketupat Bros", "Hydra Dragon Cannelloni",
     "bacuru and egguru", "Popuru and Fizzuru", "Los Trios",
-    "Los Sekolahs", "Chill Puppy",
+    "Los Sekolahs", "Chill Puppy", "Spinny Hammy", "Los Mi Gatitos", "Arcadopus", "Mi Gatito", 
+    "Love Love Love Sahur", "Noo my Heart", "Los Couples", "Spaghetti Floretti", "Rosetti Tualetti",
+    "Luv Luv Luv", "Cupid Hotspot", "Rosey and Teddy", "Lovin Rose", "La Romantic Grande", "Love Love bear",
+    "Chicleteira Cupideira",
 }
 
 -- ══════════════════════════════════════════════════════════════
