@@ -25,7 +25,7 @@ local FPS_LIMIT  = 15
 if setfpscap then pcall(setfpscap, FPS_LIMIT) end
 
 local VDS_SEND_PASSWORD = "send_546564reaqw452151523333"
-local VDS_URL = "https://auroranotifier.pro"
+local VDS_URL = ""
 local SECRET = "g45hAT436262155453"
 
 local TELEPORT_SETTINGS = {
