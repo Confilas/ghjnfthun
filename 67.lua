@@ -139,6 +139,7 @@ local SPECIAL_BRAINROTS = {
     ["Rosey and Teddy"]        = { min = 0, mutations = {} },
     ["Lovin Rose"]        = { min = 0, mutations = {} },
     ["Love Love bear"]        = { min = 0, mutations = {} },
+    ["Love Love Bear"]        = { min = 0, mutations = {} }, 
     ["Rosetti Tualetti"]        = { min = 0, mutations = {} },
 }
 
