@@ -147,6 +147,7 @@ local SPECIAL_BRAINROTS = {
     ["Sammyni Fattini"]        = { min = 0, mutations = {} },
     ["Tirilikalika Tirilikalako"]        = { min = 0, mutations = {} },
     ["Antonio"]        = { min = 0, mutations = {} },
+    ["Celestial pegasus"]        = { min = 0, mutations = {} },
 }
 
 -- ══════════════════════════════════════════════════════════════
@@ -207,7 +208,7 @@ local OBJECT_NAMES = {
     "Love Love Love Sahur", "Noo my Heart", "Los Couples", "Spaghetti Floretti", "Rosetti Tualetti",
     "Luv Luv Luv", "Cupid Hotspot", "Rosey and Teddy", "Lovin Rose", "La Romantic Grande", "Love Love bear",
     "Chicleteira Cupideira","Love Love bear","Love Love Bear","La Romantic Grande",
-    "La Food Combinasion","Popcuru and Fizzuru","Tirilikalika Tirilikalako","Sammyni Fattini","Los Sekolahs","Antonio",
+    "La Food Combinasion","Popcuru and Fizzuru","Tirilikalika Tirilikalako","Sammyni Fattini","Los Sekolahs","Antonio","Celestial pegasus",
 }
 
 -- ══════════════════════════════════════════════════════════════
