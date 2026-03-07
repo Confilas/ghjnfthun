@@ -149,6 +149,8 @@ local SPECIAL_BRAINROTS = {
     ["Antonio"]        = { min = 0, mutations = {} },
     ["Celestial pegasus"]        = { min = 0, mutations = {} },
     ["Ventoliero Pavonero"]        = { min = 0, mutations = {} },
+    ["Paradiso Axolottino"]        = { min = 0, mutations = {} },
+    ["Griffin"]        = { min = 0, mutations = {} },
 }
 
 -- ══════════════════════════════════════════════════════════════
@@ -208,7 +210,7 @@ local OBJECT_NAMES = {
     "Los Sekolahs", "Chill Puppy", "Spinny Hammy", "Los Mi Gatitos", "Arcadopus", "Mi Gatito", 
     "Love Love Love Sahur", "Noo my Heart", "Los Couples", "Spaghetti Floretti", "Rosetti Tualetti",
     "Luv Luv Luv", "Cupid Hotspot", "Rosey and Teddy", "Lovin Rose", "La Romantic Grande", "Love Love bear",
-    "Chicleteira Cupideira","Love Love bear","Love Love Bear","La Romantic Grande","Ventoliero Pavonero",
+    "Chicleteira Cupideira","Love Love bear","Love Love Bear","La Romantic Grande","Ventoliero Pavonero","Griffin","Paradiso Axolottino",
     "La Food Combinasion","Popcuru and Fizzuru","Tirilikalika Tirilikalako","Sammyni Fattini","Los Sekolahs","Antonio","Celestial pegasus",
 }
 
