@@ -149,7 +149,6 @@ local SPECIAL_BRAINROTS = {
     ["Antonio"]        = { min = 0, mutations = {} },
     ["Celestial pegasus"]        = { min = 0, mutations = {} },
     ["Ventoliero Pavonero"]        = { min = 0, mutations = {} },
-    ["Paradiso Axolottino"]        = { min = 0, mutations = {} },
     ["Griffin"]        = { min = 0, mutations = {} },
 }
 
