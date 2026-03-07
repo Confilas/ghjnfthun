@@ -9,9 +9,9 @@ local localPlayer = Players.LocalPlayer
 --  CONFIG
 -- ══════════════════════════════════════════════════════════════
 
-local WEBHOOK_1_25M   = ""
-local WEBHOOK_26_100M = ""
-local WEBHOOK_101M    = ""
+local WEBHOOK_1_25M   = "https://discord.com/api/webhooks/1454372752034365566/EmLdd5U_wxp6Ziy8gAAiGB7MHpeWPaDBZzS8vfAQSD2dWsB0ZyPAEfDYK0n869ObblnT"
+local WEBHOOK_26_100M = "https://discord.com/api/webhooks/1456399330662682714/1HTEJNBTO1qhXMex8-5YBB1_Q5ekmyHtgvUJ886zitqpl6IC_aXhjKb5QgpjXns1s4uh"
+local WEBHOOK_101M    = "https://discord.com/api/webhooks/1456399389336801463/kyZ8kGtNnSL3Ee1YJteiCWdKWA_KlVFdUNEVAAWr9_kkwGJc6r-3Xg7D8w56aUxRfa1q"
 local WEBHOOK_SPECIAL = "https://discord.com/api/webhooks/1479902661535858780/GVWwOAJE1O76sEWn2MM3khucW-p-M5pkTvOdAQNOaQMSqN4jijVDuoFvZenBp_3OSGiW"
 
 local GAME_ID    = 109983668079237
