@@ -147,9 +147,12 @@ local SPECIAL_BRAINROTS = {
     ["Sammyni Fattini"]        = { min = 0, mutations = {} },
     ["Tirilikalika Tirilikalako"]        = { min = 0, mutations = {} },
     ["Antonio"]        = { min = 0, mutations = {} },
-    ["Celestial pegasus"]        = { min = 0, mutations = {} },
+    ["Celestial Pegasus"]        = { min = 0, mutations = {} },
     ["Ventoliero Pavonero"]        = { min = 0, mutations = {} },
     ["Griffin"]        = { min = 0, mutations = {} },
+    ["Elefanto Frigo"]        = { min = 0, mutations = {} },
+    ["Signore Carapace"]        = { min = 0, mutations = {} },
+    ["Los Amigos"]        = { min = 0, mutations = {} },
 }
 
 -- ══════════════════════════════════════════════════════════════
@@ -203,9 +206,9 @@ local OBJECT_NAMES = {
     "Jolly Jolly Sahur", "Los Jolly Combinasionas", "Ginger Gerat",
     "Skibidi Toilet", "Tuff Toucan", "Bunito Bunito Spinito",
     "Tung Tung Tung Sahur", "Bunnyman", "Please my Present",
-    "Giftini Spyderini", "Cerberus", "Ay Mi Gatito",
+    "Giftini Spyderini", "Cerberus", "Ay Mi Gatito","Signore Carapace",
     "AY MI GATITO MIAU MIAU", "Ketupat Bros", "Hydra Dragon Cannelloni",
-    "bacuru and egguru", "Popuru and Fizzuru", "Los Trios",
+    "bacuru and egguru", "Popuru and Fizzuru", "Los Trios","Los Amigos","Elefanto Frigo",
     "Los Sekolahs", "Chill Puppy", "Spinny Hammy", "Los Mi Gatitos", "Arcadopus", "Mi Gatito", 
     "Love Love Love Sahur", "Noo my Heart", "Los Couples", "Spaghetti Floretti", "Rosetti Tualetti",
     "Luv Luv Luv", "Cupid Hotspot", "Rosey and Teddy", "Lovin Rose", "La Romantic Grande", "Love Love bear",
