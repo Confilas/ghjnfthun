@@ -153,6 +153,7 @@ local SPECIAL_BRAINROTS = {
     ["Elefanto Frigo"]        = { min = 0, mutations = {} },
     ["Signore Carapace"]        = { min = 0, mutations = {} },
     ["Los Amigos"]        = { min = 0, mutations = {} },
+    ["Fortunu and Coinuru"]        = { min = 0, mutations = {} },
 }
 
 -- ══════════════════════════════════════════════════════════════
@@ -205,7 +206,7 @@ local OBJECT_NAMES = {
     "Dragon Gingerini", "Donkeyturbo Express", "Money Money Reindeer",
     "Jolly Jolly Sahur", "Los Jolly Combinasionas", "Ginger Gerat",
     "Skibidi Toilet", "Tuff Toucan", "Bunito Bunito Spinito",
-    "Tung Tung Tung Sahur", "Bunnyman", "Please my Present",
+    "Tung Tung Tung Sahur", "Bunnyman", "Please my Present","Fortunu and Coinuru",
     "Giftini Spyderini", "Cerberus", "Ay Mi Gatito","Signore Carapace",
     "AY MI GATITO MIAU MIAU", "Ketupat Bros", "Hydra Dragon Cannelloni",
     "bacuru and egguru", "Popuru and Fizzuru", "Los Trios","Los Amigos","Elefanto Frigo",
