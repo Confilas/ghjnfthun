@@ -82,7 +82,6 @@ local WEBHOOKS = {
 -- ══════════════════════════════════════════════════════════════
 
 local SPECIAL_BRAINROTS = {
-local SPECIAL_BRAINROTS = {
     ["Garama and Madundung"]      = { min = 0, mutations = {} },
     ["Dragon Cannelloni"]         = { min = 0, mutations = {} },
     ["La Supreme Combinasion"]    = { min = 0, mutations = {} },
