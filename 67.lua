@@ -155,6 +155,7 @@ local SPECIAL_BRAINROTS = {
     ["Swaggy Bros"]        = { min = 500_000_000, mutations = { "Cursed", "Bloodrot", "Candy", "Lava", "Yin Yang", "Radioactive", "Rainbow", "Galaxy", "Divine" } },
     ["Nacho Spyder"]        = { min = 999_999_999, mutations = {} },
     ["Dug dug dug"]        = { min = 0, mutations = {} },
+    ["Los Spaghettis"]        = { min = 400_000_000, mutations = { "Cursed", "Bloodrot", "Candy", "Lava", "Yin Yang", "Radioactive", "Rainbow", "Galaxy", "Divine" } },
 }
 
 -- ══════════════════════════════════════════════════════════════
