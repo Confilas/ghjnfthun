@@ -156,7 +156,6 @@ local SPECIAL_BRAINROTS = {
     ["Nacho Spyder"]        = { min = 999_999_999, mutations = {} },
     ["Dug dug dug"]        = { min = 0, mutations = {} },
     ["Los Spaghettis"]        = { min = 400_000_000, mutations = { "Cursed", "Bloodrot", "Candy", "Lava", "Yin Yang", "Radioactive", "Rainbow", "Galaxy", "Divine" } },
-    ["Noobini Pizzanini"]        = { min = 0, mutations = {} },
 }
 
 -- ══════════════════════════════════════════════════════════════
@@ -215,7 +214,7 @@ local OBJECT_NAMES = {
     "bacuru and egguru", "Popuru and Fizzuru", "Los Trios","Los Amigos","Elefanto Frigo",
     "Los Sekolahs", "Chill Puppy", "Spinny Hammy", "Los Mi Gatitos", "Arcadopus", "Mi Gatito", 
     "Love Love Love Sahur", "Noo my Heart", "Los Couples", "Spaghetti Floretti", "Rosetti Tualetti",
-    "Luv Luv Luv", "Cupid Hotspot", "Rosey and Teddy", "Lovin Rose", "La Romantic Grande", "Love Love bear","Noobini Pizzanini",
+    "Luv Luv Luv", "Cupid Hotspot", "Rosey and Teddy", "Lovin Rose", "La Romantic Grande", "Love Love bear",
     "Chicleteira Cupideira", "La Romantic Grande","Ventoliero Pavonero","Griffin","Paradiso Axolottino","Dug dug dug",
     "La Food Combinasion","Popcuru and Fizzuru","Tirilikalika Tirilikalako","Sammyni Fattini","Los Sekolahs","Antonio","Celestial Pegasus",
 }
